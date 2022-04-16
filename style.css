@@ -7,6 +7,35 @@
   box-sizing: border-box;
 }
 
+/* Main div */
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Header div with the paragraph and heading */
+.top-header {
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.head-pargraph {
+  display: inline-block;
+}
+
+/* Div the calculator and all details */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 100%;
+  background-color: greenyellow;
+}
+
 .btn {
   height: 60px;
   width: 120px;
@@ -16,4 +45,8 @@
 
 .english-mesure {
   display: flex;
+}
+
+.sex-list {
+  list-style-type: circle;
 }

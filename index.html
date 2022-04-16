@@ -9,13 +9,13 @@
   </head>
   <body>
     <div class="container">
-      <head>
+      <header class="top-header">
         <h1 class="main-heading">BMI healthy weight calculator</h1>
         <p class="head-paragraph">
           Use this calculator to check your body mass index(BMI) and find out if
           you're healthy weight
         </p>
-      </head>
+      </header>
       <div class="hero">
         <h2 class="bmi-heading">BMI calculator</h2>
         <h2 class="height-heading">Height</h2>
@@ -47,8 +47,24 @@
           <input type="text" class="weight-ft" />
           <input type="text" class="weight-inch" />
         </div>
+        <!-- Div with the age,sex, ethnic group -->
+        <div class="age">
+          <h2>Age</h2>
+          <input type="text" class="person-age" />
+        </div>
+
+        <!-- Div with the sex selections -->
+        <h2>Sex</h2>
+        <select id="sex">
+          <ul class="sex-list">
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </ul>
+        </select>
       </div>
     </div>
+    <!-- Button with submit calculation -->
+    <button id="calculate-bmi">Calculate</button>
     <script src="./app.js"></script>
   </body>
 </html>
