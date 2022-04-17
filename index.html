@@ -9,62 +9,64 @@
   </head>
   <body>
     <div class="container">
-      <header class="top-header">
-        <h1 class="main-heading">BMI healthy weight calculator</h1>
-        <p class="head-paragraph">
-          Use this calculator to check your body mass index(BMI) and find out if
-          you're healthy weight
-        </p>
-      </header>
-      <div class="hero">
-        <h2 class="bmi-heading">BMI calculator</h2>
-        <h2 class="height-heading">Height</h2>
-        <!-- Buttons for the height -->
-        <div class="height-select">
-          <button class="btn" class="adult">Adult</button>
-          <button class="btn" class="child">Child</button>
-        </div>
-        <!-- /* div with the height select */ -->
-        <div class="height-details">
-          <h3>Cm</h3>
-          <input type="text" class="height-cm" />
-          <div class="english-mesure">
-            <h3>Feet</h3>
-            <h3>Inches</h3>
+      <div class="wraper">
+        <header class="top-header">
+          <h1 class="main-heading">BMI healthy weight calculator</h1>
+          <p class="head-paragraph">
+            Use this calculator to check your body mass index(BMI) and find out
+            if you're healthy weight
+          </p>
+        </header>
+        <div class="hero">
+          <h2 class="bmi-heading">BMI calculator</h2>
+          <!-- Buttons for the height -->
+          <div class="height-select">
+            <button class="btn" class="adult">Adult</button>
+            <button class="btn" class="child">Child</button>
           </div>
-          <input type="text" class="height-ft" />
-          <input type="text" class="height-inch" />
-        </div>
-        <!-- Div with width details -->
-        <h2 class="weight-heading">Weight</h2>
-        <div class="weight-details">
-          <h3>Kg</h3>
-          <input type="text" class="weight-cm" />
-          <div class="english-mesure">
-            <h3>Stone</h3>
-            <h3>Pounds</h3>
+          <h2 class="height-heading">Height</h2>
+          <!-- /* div with the height select */ -->
+          <div class="height-details">
+            <h3>Cm</h3>
+            <input type="text" class="height-cm" />
+            <div class="english-mesure">
+              <h3>Feet</h3>
+              <h3>Inches</h3>
+            </div>
+            <input type="text" class="height-ft" />
+            <input type="text" class="height-inch" />
           </div>
-          <input type="text" class="weight-ft" />
-          <input type="text" class="weight-inch" />
-        </div>
-        <!-- Div with the age,sex, ethnic group -->
-        <div class="age">
-          <h2>Age</h2>
-          <input type="text" class="person-age" />
-        </div>
+          <!-- Div with width details -->
+          <h2 class="weight-heading">Weight</h2>
+          <div class="weight-details">
+            <h3>Kg</h3>
+            <input type="text" class="weight-cm" />
+            <div class="english-mesure">
+              <h3>Stone</h3>
+              <h3>Pounds</h3>
+            </div>
+            <input type="text" class="weight-ft" />
+            <input type="text" class="weight-inch" />
+          </div>
+          <!-- Div with the age,sex, ethnic group -->
+          <div class="age">
+            <h2>Age</h2>
+            <input type="text" class="person-age" />
+          </div>
 
-        <!-- Div with the sex selections -->
-        <h2>Sex</h2>
-        <select id="sex">
-          <ul class="sex-list">
-            <option value="male">male</option>
-            <option value="female">female</option>
-          </ul>
-        </select>
+          <!-- Div with the sex selections -->
+          <h2>Sex</h2>
+          <select id="sex">
+            <ul class="sex-list">
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </ul>
+          </select>
+        </div>
+        <button id="calculate-bmi">Calculate</button>
       </div>
     </div>
     <!-- Button with submit calculation -->
-    <button id="calculate-bmi">Calculate</button>
     <script src="./app.js"></script>
   </body>
 </html>
