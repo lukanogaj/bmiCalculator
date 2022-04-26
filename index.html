@@ -29,24 +29,28 @@
           <h2 class="height-heading">Height</h2>
           <!-- /* div with the height select */ -->
           <div class="height-details">
-            <h3>Cm</h3>
-            <input type="text" class="height-cm" />
-            <div class="english-mesure"></div>
-            <h3>Feet</h3>
-            <input type="text" class="height-ft" />
-            <h3>Inches</h3>
-            <input type="text" class="height-inch" />
+            <label for="height">Cm</label>
+            <input type" ="text" class="height-cm" />
+            <!-- English mesure -->
+            <div>
+              <label for="feet">Feet</label>
+              <input type="text" class="height-ft" />
+              <label for="inch">Inch</label>
+              <input type="text" class="height-inch" />
+            </div>
           </div>
           <!-- Div with width details -->
           <h2 class="weight-heading">Weight</h2>
           <div class="weight-details">
-            <h3>Kg</h3>
-            <input type="text" class="weight-cm" />
-            <div class="english-mesure"></div>
-            <h3>Stone</h3>
-            <input type="text" class="weight-stone" />
-            <h3>Pounds</h3>
-            <input type="text" class="weight-pound" />
+            <label for="weight">Kg</label>
+            <input type="text" class="weight-kg" />
+            <!-- English mesure -->
+            <div class="english-measure">
+              <label for="stone">Stone</label>
+              <input type="text" class="weight-stone" />
+              <label for="pound">Pound</label>
+              <input type="text" class="weight-pound" />
+            </div>
           </div>
           <!-- Div with the age,sex, ethnic group -->
           <div class="age">
@@ -57,10 +61,8 @@
           <!-- Div with the sex selections -->
           <h2>Sex</h2>
           <select id="sex" class="select-gender">
-            <ul class="sex-list">
-              <option value="male">male</option>
-              <option value="female">female</option>
-            </ul>
+            <option value="male">male</option>
+            <option value="female">female</option>
           </select>
         </div>
         <button id="calculate-bmi" class="calculator-button">Calculate</button>

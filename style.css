@@ -34,7 +34,7 @@ body {
   border-radius: 0.3rem;
 }
 
-/* Sudo classes */
+/* Heading classes */
 h1 {
   display: inline-block;
   font-weight: 600;
@@ -101,6 +101,7 @@ h3 {
   box-shadow: none;
 }
 
+/* Bottom div with the calculator button */
 .calculator-button {
   width: 150px;
   height: 60px;
@@ -112,14 +113,27 @@ h3 {
   border: none;
   border-radius: 0.5rem;
 }
-/* Seperate */
-.english-mesure {
-  display: flex;
-  justify-content: flex-start;
+
+/* CSS for height and weights inputs */
+.height-details {
 }
 
-/* Bottom div with the calculator button */
+input {
+  display: block;
+  border: 0.1rem solid #d3d3d3;
+  border-radius: 0.2rem;
+  height: 35px;
+  cursor: pointer;
+}
 
-.sex-list {
-  list-style-type: circle;
+.english-measure {
+  display: inline-block;
+}
+
+.height-cm {
+  margin: 0 0 20px 6px;
+}
+
+.weight-kg {
+  margin: 0 0 20px 22px;
 }
