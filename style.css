@@ -114,8 +114,16 @@ h3 {
   border-radius: 0.5rem;
 }
 
+.calculator-button:hover {
+  background-color: #778692;
+}
+
 /* CSS for height and weights inputs */
-.height-details {
+/* .height-details {
+} */
+
+.english-measure {
+  display: flex;
 }
 
 input {
@@ -126,14 +134,40 @@ input {
   cursor: pointer;
 }
 
-.english-measure {
-  display: inline-block;
+input:hover {
+  border: 1px solid red;
 }
 
-.height-cm {
-  margin: 0 0 20px 6px;
+::placeholder {
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 0.9rem;
 }
+.height-cm {
+  margin: 0 0 20px 0px;
+}
+.height-ft {
+  margin: 0 0 20px 0px;
+}
+.height-inch {
+  margin: 0 0 20px 20px;
+}
+
+/* Weights inputs*/
 
 .weight-kg {
-  margin: 0 0 20px 22px;
+  margin: 0 0 20px 0px;
+}
+.weight-stone {
+  margin: 0 0 20px 0px;
+}
+.weight-pound {
+  margin: 0 0 20px 20px;
+}
+
+/* Select and the bottom divs */
+.select-gender {
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
 }
