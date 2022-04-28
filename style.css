@@ -121,9 +121,38 @@ h3 {
 /* CSS for height and weights inputs */
 /* .height-details {
 } */
+.eu-measure {
+  display: flex;
+}
 
 .english-measure {
   display: flex;
+}
+
+/*  div with button for changing the measures */
+.switch-mes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-switch-measures {
+  display: block;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  background-color: #d3d3d3;
+  border-radius: 3px;
+  height: 30px;
+  margin-right: 3.8rem;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+}
+
+.btn-switch-measures:hover {
+  background-color: #d3d3d3;
+  border-radius: 3px;
+  letter-spacing: 0.1rem;
 }
 
 input {
@@ -170,4 +199,9 @@ input:hover {
   width: 100px;
   height: 30px;
   font-size: 1rem;
+}
+
+/* Css for JS divs */
+#english-height {
+  display: none;
 }

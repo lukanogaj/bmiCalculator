@@ -26,7 +26,13 @@
         </div>
         <div class="hero">
           <!-- Buttons for the height -->
-          <h2 class="height-heading">Height</h2>
+          <div class="switch-mes">
+            <h2 class="height-heading">Height</h2>
+            <button class="btn-switch-measures select-mes">
+              Switch to ft, in
+            </button>
+          </div>
+
           <!-- /* div with the height select */ -->
           <div class="height-details">
             <!-- Europe measure -->
@@ -34,7 +40,7 @@
               <input placeholder="cm" type="text" class="height-cm" />
             </div>
             <!-- English mesure -->
-            <div class="english-measure">
+            <div id="english-height" class="english-measure">
               <input placeholder="feet" type="text" class="height-ft" />
               <input placeholder="inch" type="text" class="height-inch" />
             </div>
@@ -44,7 +50,7 @@
           <div class="weight-details">
             <input placeholder="kg" type="text" class="weight-kg" />
             <!-- English mesure -->
-            <div class="english-measure">
+            <div id="eng-weight" class="english-measure">
               <input placeholder="stone" type="text" class="weight-stone" />
               <input placeholder="pound" type="text" class="weight-pound" />
             </div>
