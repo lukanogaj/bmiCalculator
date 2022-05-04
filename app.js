@@ -1,18 +1,12 @@
 // Select the elements
-// The height div , switch between cm and ft,inch
-const height = document.querySelector('.select-mes'); // button to change units of height
-const engUnitsHeight = document.querySelector('#english-height');
+let btnShowEngUnits = document.querySelector('#switchToEngMes');
+let englishHeightUnits = document.querySelector('#english-height');
 
-console.log(height, engUnitsHeight);
-
-// Add event listeners to the elements
-const switchHeight = addEventListener('click', function () {
-  if (engUnitsHeight.style.display !== 'none') {
-    engUnitsHeight.style.display = 'none';
-  } else {
-    engUnitsHeight.style.display = 'flex';
-  }
+// Add event listeners to the button
+btnShowEngUnits.addEventListener('click', () => {
+  englishHeightUnits.classList.toggle('reveal');
+  console.log('hello');
 });
 
-// console.log(switchHeight);
-// Method with toogle between the classes
+// Console logs
+console.log(btnShowEngUnits, englishHeightUnits);

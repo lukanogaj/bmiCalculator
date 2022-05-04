@@ -119,13 +119,8 @@ h3 {
 }
 
 /* CSS for height and weights inputs */
-/* .height-details {
-} */
-.eu-measure {
-  display: flex;
-}
 
-.english-measure {
+.eu-measure {
   display: flex;
 }
 
@@ -155,6 +150,15 @@ h3 {
   letter-spacing: 0.1rem;
 }
 
+/* Css for the hide and show div with english units */
+.english-measure {
+  display: flex;
+  visibility: hidden;
+}
+
+.reveal {
+  visibility: visible;
+}
 input {
   display: block;
   border: 0.1rem solid #d3d3d3;
@@ -199,9 +203,4 @@ input:hover {
   width: 100px;
   height: 30px;
   font-size: 1rem;
-}
-
-/* Css for JS divs */
-#english-height {
-  display: none;
 }
