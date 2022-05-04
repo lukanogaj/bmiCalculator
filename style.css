@@ -156,7 +156,16 @@ h3 {
   visibility: hidden;
 }
 
+.english-measure-kg {
+  display: flex;
+  visibility: hidden;
+}
+
 .reveal {
+  visibility: visible;
+}
+
+.reveal-weightEng {
   visibility: visible;
 }
 input {
